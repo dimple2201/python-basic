@@ -1,0 +1,25 @@
+<HTML>
+    <HEAD>
+        <TITLE>Introducing List Elements</TITLE>
+    </HEAD>
+    <body bgcolor="green">
+        <h1>LIST</h1>
+        <H3>ORDERED LIST</H3>
+        There are four type of Ordered List-
+        <OL>
+            <li>Numeric (Default)</li>
+            <li>First type="A"</li>
+            <li>Second type="a"</li>
+            <li>Third type="I"</li>
+            <li>Forth type="i"</li>
+        </OL>
+        <h3>UNORDERED LIST</h3>
+        There are two types of Unorderd List-
+        <ul> 
+            <li>Disc (Default)</li>
+            <li>First type="Circle"</li>
+            <li>Second type="Square"</li>
+        </ul>
+
+    </body>
+</HTML>
