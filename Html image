@@ -1,0 +1,12 @@
+<HTML>
+    <HEAD>
+        <TITLE>Image Demo</TITLE>
+    </HEAD>
+    <body>
+        I will insert an image </br>
+        <img src="google.png" alt="Google"/> </br>
+
+        if our image in any folder </br>
+        <img src="image/google.png" alt="Google"/>
+    </body>
+</HTML>
