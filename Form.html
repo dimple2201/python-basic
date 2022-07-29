@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>HTML FORM</title>
+    </head>
+    <body>
+        <form action="page.php" autocomplete="on" novalidate> 
+            <label for="fname">First Name : </label>
+            <input type="text" id="fname"/>
+            <br/> <br/>
+            <label for="lname">Last Name : </label>
+            <input type="text" id="lname"/>
+            <br/><br/>
+            <fieldset>
+                <legend>Sensitive Data</legend>
+                <label for="ename">Email Address : </label>
+                <input type="text" id="ename" required/>
+                <br/><br/>
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd" name="pwd" minlength="8">
+                <br/><br/>
+                <label for="country_code">Country code:</label>
+                <input type="text" id="country_code" name="country_code"
+                 pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+            </fieldset>
+            <br/><br/>
+            <label for="pname">Phone Number : </label>
+            <input type="text" id="pname" value="+91"/>
+            <br/><br/>
+            <label for="dname">Date of Birth : </label>
+            <input type="text" id="dname" placeholder="DD-MM-YYYY"/> 
+            <br/><br/>
+            <label>GENDER : </label>
+
+            <input type="radio" id="male" name="gender" value="male"/>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+            <br/><br/>
+            <label> Hobbies : </label>
+
+            <input type="checkbox" id="music" name="Hobbies" value="Listening Music"/>
+            <label for="music">Listening Music</label>
+            <input type="checkbox" id="sketch" name="Hobbies" value="Sketching"/>
+            <label for="sketch">Sketching</label>
+            <input type="checkbox" id="play" name="Hobbies" value="Playing Basketball"/>
+            <label for="play">Playing Basketball</label>
+            <br/><br/>
+            <label for="edu">Qualification : </label>
+            <select id="edu" name="edu" size="3" multiple>
+                <option value="select">Select</option>
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="Graduate" selected>Graduate</option>
+                <option value="Post-Graduate">Post-Graduate</option>
+              </select>
+              <br/><br/>
+              <label for="name"> Regional : </label>
+              <input list="nname" name="Regional" id="name"/>
+              <datalist id="nname">
+              <option value="Hindu">
+                <option value="Muslim">
+                <option value="Sikh">
+                <option value="Jain">
+                <option value="Bodh">
+            </datalist>
+              <h3>Add Something About Yourself - </h3>
+              <textarea name="Message" rows="6" column="6" autofocus></textarea>
+              <br/><br/>
+              <h4>Form Progress Report -</h4>
+              <label for="file">Downloading Progress : </label>
+              <progress id="file" value="56" max="100">56%</progress>
+              <br/><br/>
+              <input type="submit" value="submit"/>
+        </form>
+    </body>
+</html>
