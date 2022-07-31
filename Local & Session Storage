@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Storage Demo</title>
+        <script>
+            localStorage.setItem("city","Noida");
+            sessionStorage.setItem("Name","Dimple");
+        </script>
+         </head>
+         <body></body>
+</html>
