@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>CSS Introduction</title>
+    <style>
+        #parent{
+            background-color: brown;
+            height: 100px;
+            width: 100px;
+            margin:70px;
+            padding: 20px;
+        }
+        #child{
+            background-color:pink;
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+        }
+     </style>
+    <link href="EXTERNAL.CSS" rel="stylesheet"/>
+</head>
+<body>
+    <h1>CSS INTRODUCTION:</h1>
+    <hr>
+    <p>CSS is the language we use to style a Web 
+        page.</p>
+    <hr/>
+    <h2>What is CSS?</h2>
+    <ul>
+        <li>CSS stands for Cascading Style Sheets</li>
+        <li>CSS describes how HTML elements are to be displayed on screen,
+             paper, or in other media</li>
+        <li>CSS saves a lot of work. It can control the layout of multiple web
+             pages all at once</li>
+        <li>External stylesheets are stored in CSS files</li>
+    </ul><hr>
+    <h2>Types of CSS:</h2>
+    <ol type="A">
+        <li>Inline</li>
+         <li>Internal</li>
+        <li>External</li>
+    </ol><hr>
+    <div style="height:100px; width:100px;background-color:blue; margin:40px; padding: 20px;">
+    <div style="height:50px; width:50px;background-color:aqua; padding:10px;">INDIA</div>
+    
+    <div id="parent">
+        <div id="child">USA</div>
+     </div>   
+     <div class="parent">
+        <div class="child">UK</div>
+     </div>   
+</body>
+</html>
