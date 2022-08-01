@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Margin & Padding Intro</title>
+        <style>
+            body{
+                background-color:teal;
+            }
+            .parentDiv div{
+                height: 100px;
+                width: 100px;
+                border:black;
+                /* padding: 20px; */
+                margin: 30px;
+                font-size:  40px;
+                font-weight:bold;
+                color:white;
+            }
+            .parentDiv p{
+                color:whitesmoke;
+            }
+            p{
+                color:rosybrown;
+            }
+            .odd{
+                background-color: royalblue;
+            }
+            .even{
+                background-color:aqua;
+            }
+            #mid{
+                background-color:powderblue;
+            }
+        </style>
+    </head>
+    <body>
+        <p style="color:orange; font-size:large;">1.We use (.) for class.</p>
+        <div class="parentDiv">
+            <p>2.We use (#) for id.</p>
+          <div class="odd">1</div>
+          <div class="even">2</div>
+          <div id="mid">3</div>
+          <div class="even">4</div>
+          <div class="odd">5</div>
+        </div>
+        <p>3.Nothing for element.We can directly apply it.</p>
+    </body>
+</html>
