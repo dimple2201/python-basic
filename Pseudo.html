@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Pseudo Intro</title>
+        <style>
+            .child{
+                height: 100px;
+                width: 100px;
+                background-color: blueviolet;
+                margin: 10px;
+                border:10px saddlebrown;
+            }
+            /* .child:hover{ */
+                .child:first-child{
+            /* .child:last-child{ */
+                background-color: blue;
+            }
+            /* p::first-line{ */
+            p::first-letter{
+                color:rgb(82, 151, 220);
+                font-size:30px;;
+            }
+            H1::before{
+                content:"Country Name:";
+            }
+        </style>
+    </head>
+    <body>
+        <p>1.The(:) for Pseudo class</p>
+        <div class="parent">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="parent">
+            <div class="child"></div>
+            </div>
+            <div class="child"></div>
+        </div>
+        <p>2. The(::) for Pseudo element</p>
+        <h1>INDIA</h1>
+        <h2>USA</h2>
+        <H3>NEPAL</H3>
+    </body>
+</html>
