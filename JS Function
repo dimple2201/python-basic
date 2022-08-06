@@ -1,0 +1,4 @@
+function makeMaggi(maggi, water, species){
+    console.log(" Your maggi is ready in " + maggi * 2  + " minutes with " + water  + " cup of water and " + species + " masala")
+}
+makeMaggi(2,4,5);
