@@ -1,0 +1,86 @@
+const array = [1,2,3,4,5,6,7,8,9];
+console.log(array)
+console.log(array[5])
+console.log(array[array.length-1])
+
+//Array with Object and Constructor
+
+const num = new Array(1,2,3,4,5,6,7,8,9);
+console.log(num[num.length-1])
+
+// Push : add the value at the last of the array.
+array.push(10)
+console.log(array)
+
+// Unshift : add the value at the first of the array.
+array.unshift(0)
+console.log(array)
+
+// Pop : remove the value at the first of the array & opposite of the push method.
+array.pop()
+console.log(array)
+
+// Shift : remove the value at the first of the array & opposite of the unshift method.
+array.shift()
+console.log(array)
+
+// Mutable : We can change the values in the array.
+array[0] = 11
+console.log(array)
+
+const names = ['Aman','Sid','Vishal','John','Akash','Vishal'];
+console.log(names)
+
+// IndexOf : The value to locate in the array.
+// names.indexOf('Vishal')
+console.log(names.indexOf('Vishal'))
+console.log(names.indexOf('Vishal',3))
+
+// Lastindexof : Returns the index of the last occurence of a value in an array.
+console.log(names.lastIndexOf('Vishal'))
+
+// Includes : We can check the value is existing or not and return true or false.
+console.log(names.includes('Sid'))
+console.log(names.includes('Sid',2))
+
+// Concatination : adding two string.
+let name1 = ['harry','Sid','Nick']
+let name2 = ['vishal','John','Many']
+console.log (name1.concat(name2))
+
+// Slice : 
+console.log (names.slice(3))
+console.log(names.slice(2,5))
+
+// Spread : adding two object with ...
+let name3 = [...name1,...name2]
+console.log(name3)
+
+let name4 = [...['harry','Sid','Nick'],... ['vishal','John','Many']]
+console.log(name4)
+
+
+
+// For loop
+for(let i = 0; i<names.length;i++){
+    console.log(names[i])
+}
+
+// For of
+for(let name of names){
+    console.log(name)
+}
+
+// For-each with Arrow Function
+names.forEach(item=>{
+    console.log(item)
+})
+
+// For-each with callback Funciton
+names.forEach(function(name,index){
+    console.log(name,index)
+})
+
+// Join : add all the element of an array into a string.
+let student = ['D','i','v','i','s','h']
+console.log(student.join(''))
