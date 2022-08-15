@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Java Script Demo</title>
+   <script>
+       function abc(){
+        alert('Dimple')
+       }
+   </script>
+</head>
+<body>
+    <button onclick="abc()">Click me</button>
+</body>
+</html>
